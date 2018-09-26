@@ -18,3 +18,12 @@ one = MyClass3()
 two = MyClass3()
 print(id(one))
 print(id(two))
+
+
+# def singleorm(cls, *args, **kwargs):
+#     instans=[]
+#     def _singkeorm():
+#         if cls is not in instans:
+#             instans[cls]=cld(*args, **kwargs)
+#         return instans[cls]
+#     return _singkeorm
